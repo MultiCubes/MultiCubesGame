@@ -733,7 +733,7 @@ PrefabInstance:
     - target: {fileID: 6035657223584465540, guid: d577b429e5b81c54ebe5e6e5737ffef7,
         type: 3}
       propertyPath: m_Name
-      value: NextLevel
+      value: PLayAgain
       objectReference: {fileID: 0}
     - target: {fileID: 6035657223584465545, guid: d577b429e5b81c54ebe5e6e5737ffef7,
         type: 3}
@@ -2431,7 +2431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   canBeatLevel: 1
-  beatLevelScore: 10
+  beatLevelScore: 20
   startTime: 20
   mainScoreDisplay: {fileID: 2129593007}
   mainTimerDisplay: {fileID: 70108707}
@@ -2439,9 +2439,9 @@ MonoBehaviour:
   musicAudioSource: {fileID: 1210327622}
   gameIsOver: 0
   playAgainButtons: {fileID: 1855497812}
-  playAgainLevelToLoad: Level1
+  playAgainLevelToLoad: Level2
   nextLevelButtons: {fileID: 1712180163}
-  nextLevelToLoad: Level2
+  nextLevelToLoad: Level1
 --- !u!4 &2101255572
 Transform:
   m_ObjectHideFlags: 0
