@@ -11,8 +11,7 @@ public class Shooter : MonoBehaviour {
 	// Reference to AudioClip to play
 	public AudioClip shootSFX;
 
-	public void Shoot()
-    {
+	public void Shoot() {
 		// Detect if fire button is pressed
 		if (Input.GetButtonDown("Fire1") || Input.GetButtonDown("Jump"))
 		{
@@ -48,10 +47,5 @@ public class Shooter : MonoBehaviour {
 				}
 			}
 		}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }
